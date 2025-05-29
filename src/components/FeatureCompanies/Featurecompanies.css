@@ -1,0 +1,48 @@
+.company-slider-container {
+  position: relative;
+  padding: 1rem 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.slider {
+  overflow-y: hidden;
+}
+
+.feature-company-card {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.feature-company-card img {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+h3 {
+  text-align: center;
+  margin: 1rem 0;
+  color: #1e293b;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .feature-company-card {
+    height: 50px;
+  }
+
+  .company-slider-container {
+    padding: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}

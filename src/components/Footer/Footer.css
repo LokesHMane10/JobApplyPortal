@@ -1,0 +1,188 @@
+.footer {
+  background-color: white;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.inner-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  background-color: rgb(231, 229, 223);
+}
+
+.footer-head {
+  font-size: larger;
+  text-align: center;
+}
+
+.footer-head img {
+  height: 40px;
+  width: 120px;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 0.6rem;
+}
+
+.footer-social a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.contact-info span {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info-txt img {
+  margin-top: 1rem;
+}
+.footer-button {
+  height: 1.3rem;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+}
+
+.comp-provide {
+  max-width: 16rem;
+  margin-bottom: 0.4rem;
+  color: rgb(89, 91, 94);
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 1rem;
+}
+
+.contact-info input {
+  color: white;
+  font-size: 13px;
+}
+
+.footer-bullets {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.footer-social {
+  margin-top: 1rem;
+}
+
+.contact-info-txt {
+  margin-bottom: 0.4rem;
+  color: rgb(97, 98, 98);
+}
+
+.contact-info-txt a {
+  all: unset;
+}
+
+.hr {
+  border: 1px solid rgb(133, 131, 131);
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  /* margin-left: 16rem; */
+  background-color: white;
+  color: black;
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  /* gap: 3rem; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+
+.company-img img {
+  height: 50px;
+  width: 130px;
+}
+
+.install-app {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.install-app img {
+  height: 40px;
+  width: 130px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 1rem;
+  }
+
+  .inner-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-head {
+    font-size: 28px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+
+  .footer-bullets {
+    text-align: center;
+  }
+
+  .contact-info-txt {
+    text-align: center;
+  }
+
+  .copyright span {
+    font-size: 10px;
+  }
+
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .copyright div {
+    width: 100%;
+  }
+
+  .install-app {
+    gap: 0.3rem;
+  }
+
+  .install-app img,
+  .company-img img {
+    height: auto;
+    width: 100px;
+  }
+
+  .copyright span {
+    font-size: 12px;
+  }
+
+  .company-img,
+  .install-app {
+    display: flex;
+    justify-content: center;
+  }
+}
