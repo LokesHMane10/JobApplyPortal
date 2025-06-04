@@ -8,7 +8,6 @@ This project is a fully responsive and dynamic homepage for a Job Apply Portal, 
 - 💻 **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.
 - 🔍 **Job Search Bar** – Intuitive input and dropdowns for job type and location.
 - 🏢 **Featured Companies** – Section highlighting top hiring companies.
-- 📊 **Live Stats** – Animated counters showing real-time job stats.
 - 🌐 **Dynamic UI Components** – Built with reusable React components.
 - 🎨 **Clean & Modern UI** – Focused on accessibility and usability.
 
@@ -19,5 +18,4 @@ This project is a fully responsive and dynamic homepage for a Job Apply Portal, 
 - **CSS3** *(with custom styles or framework like Bootstrap/Tailwind)*
 - **JavaScript (ES6+)**
 
-## 📁 Folder Structure
-
+ 
