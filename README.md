@@ -1,5 +1,5 @@
 
-# 💼 Job Apply Portal - Homepage (Frontend)
+# 💼 Job Apply Portal - Homepage (Frontend) (https://jobapplyportal.netlify.app/)
 
 This project is a fully responsive and dynamic homepage for a Job Apply Portal, built using React, HTML, CSS, and JavaScript. It serves as the landing page for users to explore job listings, discover featured companies, and get started with their job search or hiring process.
 
