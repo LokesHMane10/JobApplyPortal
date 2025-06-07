@@ -15,7 +15,7 @@ This project is a fully responsive and dynamic homepage for a Job Apply Portal, 
 
 - **React.js**
 - **HTML5**
-- **CSS3** *(with custom styles or framework like Bootstrap/Tailwind)*
+- **CSS3** *(with custom styles or framework like Bootstrap)*
 - **JavaScript (ES6+)**
 
  
